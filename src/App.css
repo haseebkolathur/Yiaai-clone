@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: 0 0;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  outline: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+html.modal-enabled {
+  overflow: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e5e5e5;
+  border-radius: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b7b7b7;
+}
+
+a,
+h1,
+h2,
+input,
+p {
+  font-family: "gordita_regular";
+}
+b,
+strong {
+  font-weight: bold;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before {
+  content: "";
+  content: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+address,
+article,
+aside,
+footer,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: "gordita_regular";
+  font-size: 1.0625rem;
+  color: #333;
+  overflow-x: hidden;
+  min-width: 20rem;
+  position: relative;
+}
+
+input,
+select,
+textarea {
+  font-family: "gordita_regular";
+}
+
+a {
+  color: #333;
+}
+
+.submit:hover {
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+.modal-open {
+  overflow: hidden !important;
+}
+p {
+  line-height: 1.6em;
+  font-size: 1rem;
+  font-family: "gordita_regular";
+}
+.wrapper{
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+#main {
+  margin-left: 0px !important;
+}
+
+#main-container .wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 75rem;
+  display: contents;
+}
+
+i {
+  font-size: 18.5px;
+}
+
+@font-face {
+  font-family: 'GT-Eesti';
+  src: url("./assets/fonts//GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+  src: url("./assets/fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff");
+  font-weight: 500;
+  font-style: normal
+}
+@font-face {
+  font-display: auto;
+  font-family: "gordita_regular";
+  src: url(".././src/assets/fonts/gordita-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-display: auto;
+  font-family: "gordita_medium";
+  src: url(".././src/assets/fonts/gordita-medium-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gordita_bold";
+  src: url(".././src/assets/fonts/gordita-bold-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EGGIndulekhaUni";
+  src: url(".././src/assets/fonts/EGGIndulekhaUniB.woff2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+[class*=" icon-"]:before,
+[class^="icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
